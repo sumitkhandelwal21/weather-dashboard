@@ -3,7 +3,7 @@
 The **Weather Dashboard App** is a responsive and interactive web application that allows users to view historical weather data for a specific location and date range. Built with **Next.js** and styled using **Tailwind CSS**, the app is deployed on **Vercel** for seamless and fast performance.
 
 ## Live Demo  
-🌐 [Weather Dashboard on Vercel](https://weather-dashboard-app-self.vercel.app/)  
+🌐 [Weather Dashboard on Vercel](https://weather-dashboard-nine-sigma.vercel.app/)  
 
 ---
 
