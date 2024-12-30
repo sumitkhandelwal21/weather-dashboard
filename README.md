@@ -1,8 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Weather Dashboard App 🌤️
 
-## Getting Started
+The **Weather Dashboard App** is a responsive and interactive web application that allows users to view historical weather data for a specific location and date range. Built with **Next.js** and styled using **Tailwind CSS**, the app is deployed on **Vercel** for seamless and fast performance.
 
-First, run the development server:
+## Live Demo  
+🌐 [Weather Dashboard on Vercel](https://weather-dashboard-app-self.vercel.app/)  
+
+---
+
+## Features
+
+### 🔍 **Dashboard Inputs**  
+- **Latitude & Longitude**: User-friendly input boxes with validation for accurate coordinates.  
+- **Date Range**: Intuitive date pickers for selecting the start and end dates.  
+
+### 🌐 **API Integration**  
+- Uses the **Open-Meteo Historical Weather API** to fetch daily weather data based on user inputs.  
+- **Weather Variables**:
+  - Maximum Temperature (2 m)
+  - Minimum Temperature (2 m)
+  - Mean Temperature (2 m)
+  - Maximum Apparent Temperature (2 m)
+  - Minimum Apparent Temperature (2 m)
+  - Mean Apparent Temperature (2 m)
+
+### 📊 **Data Display**  
+- **Graph View**: Interactive charts showing trends over the selected period (powered by Chart.js).  
+- **Table View**: A paginated table to display weather data with options for 10/20/50 rows per page.
+
+### 🎨 **UI Expectations**  
+- Fully responsive design ensuring compatibility across desktop, tablet, and mobile devices.  
+- Elegant, creative styling powered by **Tailwind CSS**.  
+
+### ⚡ **Additional Features**  
+- Loading state while fetching data for better user experience.  
+- Error handling for invalid inputs or null data.  
+- Optimized API calls to minimize excessive requests.
+
+---
+
+## Tech Stack  
+
+### 🖥️ **Frontend**  
+- **Framework**: Next.js  
+- **Styling**: Tailwind CSS  
+
+### 🔧 **Tools & Libraries**  
+- **Chart.js**: For graphical representation of weather data.  
+- **Open-Meteo API**: To fetch historical weather data.  
+
+### 🚀 **Deployment**  
+- Hosted on **Vercel** for fast and reliable performance.
+
+---
+
+## Installation & Setup  
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-repo/weather-dashboard.git
+   cd weather-dashboard
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -13,24 +71,3 @@ pnpm dev
 # or
 bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
