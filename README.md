@@ -57,9 +57,10 @@ The **Weather Dashboard App** is a responsive and interactive web application th
 
 Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-repo/weather-dashboard.git
-   cd weather-dashboard
+```bash
+git clone https://github.com/your-repo/weather-dashboard.git
+cd weather-dashboard
+```
 
 Run the development server:
 
