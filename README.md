@@ -55,7 +55,8 @@ The **Weather Dashboard App** is a responsive and interactive web application th
 
 ## Installation & Setup  
 
-1. **Clone the repository**:
+Clone the repository:
+
    ```bash
    git clone https://github.com/your-repo/weather-dashboard.git
    cd weather-dashboard
