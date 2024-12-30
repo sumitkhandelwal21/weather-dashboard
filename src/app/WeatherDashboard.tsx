@@ -45,7 +45,7 @@ export default function WeatherDashboard() {
             });
             setWeatherData(response.data.daily);
         } catch (error) {
-            setError('Failed to fetch weather data. Please check your inputs or try again later.');
+            setError(`Failed to fetch weather data. Please check your inputs or try again later. ${error}`);
         } finally {
             setLoading(false);
         }
